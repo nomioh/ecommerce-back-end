@@ -11,6 +11,12 @@ Product.init(
   {
     // define columns
   },
+  productName: {
+    type: DataTypes.STRING,
+    allowNull: false,
+    primaryKey: true,
+    autoIncrement: True
+  },
   {
     sequelize,
     timestamps: false,
